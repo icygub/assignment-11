@@ -5,14 +5,18 @@ package cs115;
  */
 public class Node {
 
-    private Object object;
+    private String data;
     private Node prev;
     private Node next;
 
     public Node(Object object) {
-        this.object = object;
+        this.data = data;
         prev = null;
         next = null;
+    }
+
+    public String getData() {
+        return data;
     }
 
     public Node getPointerPrev() {
