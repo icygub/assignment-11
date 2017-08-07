@@ -15,6 +15,12 @@ public class Node {
         next = null;
     }
 
+    public Node(String data) {
+        this.data = data;
+        prev = null;
+        next = null;
+    }
+
     public String getData() {
         return data;
     }

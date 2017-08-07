@@ -30,6 +30,10 @@ public class CourseOffering {
         this.courseNumber = courseNumber;
     }
 
+    public CourseOffering(String courseName) {
+        this.courseName = courseName;
+    }
+
     @Override
     public String toString() {
 //        String days = "";
